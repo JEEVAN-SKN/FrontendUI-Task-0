@@ -4,6 +4,10 @@
     box-sizing:border-box;
 }
 
+html,body{
+    overflow-x: hidden;
+}
+
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -211,6 +215,9 @@ nav {
     }
     .cover img{
         height: 80%;
+    }
+     .small-circle{
+       display:none;
     }
     
 
